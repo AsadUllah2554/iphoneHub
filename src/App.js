@@ -4,12 +4,11 @@ import Home from './Components/Pages/Home'
 import ShoppingCart from './Components/Pages/ShoppingCart'
 import ContactUs from './Components/Form'
 import SignUpForm from './Components/SignUpForm'
-import Iphone from './Components/Pages/Iphone';
-import Watches from './Components/Pages/Watches';
-import Airpods from './Components/Pages/Airpods';
+import ProductsPage from './Components/Pages/ProductsCats';
 import { Routes, Route } from "react-router-dom"
 import {CartProvider} from './Context/notes/CartState';
 import ProductPage from './Components/SingleProduct';
+
 
 function App() {
   return (
@@ -21,9 +20,9 @@ function App() {
         <Routes>
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/singleproduct/:id" element={<ProductPage />} />
-          <Route path="/iphone" element={<Iphone />} />
-          <Route path="/watches" element={<Watches />} />
-          <Route path="/airpods" element={<Airpods />} />
+          <Route path="/iphone" element={<ProductsPage />} />
+          <Route path="/watches" element={<ProductsPage />} />
+          <Route path="/airpods" element={<ProductsPage />} />
           <Route path="/signup" element={<SignUpForm />} />
           <Route path="/cart" element={<ShoppingCart />} />
           <Route path="/" element={<Home />} />

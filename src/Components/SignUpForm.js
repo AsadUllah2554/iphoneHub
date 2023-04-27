@@ -68,13 +68,12 @@ function SignUpForm(){
                     type="checkbox"
                     checked={authFormData.newsLetter}
                     onChange={handleChange}
+                    className="check-box"
                     
                 />
                 <label htmlFor="okayToEmail">I want to join the newsletter</label>
             </div>
-            <button 
-                className="main-banner-btn" 
-            >
+            <button className="main-banner-btn">
                 Sign up
             </button>
         </form>

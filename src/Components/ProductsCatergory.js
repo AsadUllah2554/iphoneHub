@@ -1,5 +1,5 @@
 import '../components.css';
-import { Link } from 'react-router-dom'
+
 
 function ProductsCategory() {
     return (

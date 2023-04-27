@@ -1,220 +1,219 @@
 
 const products = [
     {
-   
-    key: 1021,
-    name:"Iphone 14 pro max",
-    price: "400,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  
-  {
-   
-    key: 1022,
-    name:"Iphone 14 pro ",
-    price: "350,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  {
-   
-    key: 1023,
-    name:"Iphone 14",
-    price: "300,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  {
-   
-    key: 1024,
-    name:"Iphone 13 pro max",
-    price: "280,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  {
-   
-    key: 1025,
-    name:"Iphone 13 pro",
-    price: "260,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  {
-   
-    key: 1026,
-    name:"Iphone 13",
-    price: "240,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  {
-   
-    key: 1027,
-    name:"Iphone 12 pro max",
-    price: "230,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  {
-   
-    key: 1028,
-    name:"Iphone 12 pro",
-    price: "210,000",
-    img: './images/iphone.png',
-    category: "iphone"
-   
-  },
-  {
-   
-    key: 1029,
-    name:"Iphone 12",
-    price: "190,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 1,
+    name:"iPhone 14 pro max",
+    price: 400000,
+    img: './images/iPhone.png',
+    category: "iPhone"
    
   },
   
   {
    
-    key: 1030,
-    name:"Iphone 11 pro max",
-    price: "170,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 2,
+    name:"iPhone 14 pro ",
+    price: 350000,
+    img: './images/iPhone.png',
+    category: "iPhone"
    
   },
   {
    
-    key: 1031,
-    name:"Iphone 11 pro",
-    price: "150,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 3,
+    name:"iPhone 14",
+    price: 300000,
+    img: './images/iPhone.png',
+    category: "iPhone"
    
   },
   {
    
-    key: 1051,
-    name:"Iphone 11",
-    price: "120,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 4,
+    name:"iPhone 13 pro max",
+    price: 280000,
+    img: './images/iPhone2.png',
+    category: "iPhone"
    
   },
   {
    
-    key: 1032,
-    name:"Iphone Xs Max",
-    price: "90,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 5,
+    name:"iPhone 13 pro",
+    price: 260000,
+    img: './images/iPhone2.png',
+    category: "iPhone"
    
   },
   {
    
-    key: 1033,
-    name:"Iphone XR",
-    price: "70,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 6,
+    name:"iPhone 13",
+    price: 240000,
+    img: './images/iPhone2.png',
+    category: "iPhone"
    
   },
   {
    
-    key: 1034,
-    name:"Iphone X",
-    price: "60,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 7,
+    name:"iPhone 12 pro max",
+    price: 230000,
+    img: './images/iPhone3.jpg',
+    category: "iPhone"
    
   },
   {
    
-    key: 1035,
-    name:"Iphone 8",
-    price: "500,000",
-    img: './images/iphone.png',
-    category: "iphone"
+    key: 8,
+    name:"iPhone 12 pro",
+    price: 210000,
+    img: './images/iPhone3.jpg',
+    category: "iPhone"
+   
+  },
+  {
+   
+    key: 9,
+    name:"iPhone 12",
+    price: 190000,
+    img: './images/iPhone3.jpg',
+    category: "iPhone"
+   
+  },
+  
+  {
+   
+    key: 10,
+    name:"iPhone 11 pro max",
+    price: 170000,
+    img: './images/iPhone.png',
+    category: "iPhone"
+   
+  },
+  {
+   
+    key: 11,
+    name:"iPhone 11 pro",
+    price: 150000,
+    img: './images/iPhone.png',
+    category: "iPhone"
+   
+  },
+  {
+   
+    key: 12,
+    name:"iPhone 11",
+    price: 120000,
+    img: './images/iPhone.png',
+    category: "iPhone"
+   
+  },
+  {
+   
+    key: 13,
+    name:"iPhone Xs Max",
+    price: 90000,
+    img: './images/iPhone.png',
+    category: "iPhone"
+   
+  },
+  {
+   
+    key: 14,
+    name:"iPhone XR",
+    price: 70000,
+    img: './images/iPhone.png',
+    category: "iPhone"
+   
+  },
+  {
+   
+    key: 15,
+    name:"iPhone X",
+    price: 60000,
+    img: './images/iPhone.png',
+    category: "iPhone"
+   
+  },
+  {
+   
+    key: 16,
+    name:"iPhone 8",
+    price: 50000,
+    img: './images/iPhone.png',
+    category: "iPhone"
    
   },
 
   {
    
-    key: 1036,
+    key: 17,
     name:"Apple Watch Ultra",
-    price: "150,000",
+    price: 150000,
     img: './images/watch-ultra.jpg',
     category: "watches"
    
   },
   {
    
-    key: 1037,
+    key: 18,
     name:"Apple Watch 7",
-    price: "100,000",
+    price: 100000,
     img: './images/watch-ultra.jpg',
     category: "watches"
    
   },
   {
    
-    key: 1038,
+    key: 19,
     name:"Apple Watch 6",
-    price: "90,000",
+    price: 90000,
     img: './images/watch-ultra.jpg',
     category: "watches"
    
   },
   {
    
-    key: 1039,
+    key: 20,
     name:"Apple Watch 5",
-    price: "80,000",
+    price: 80000,
     img: './images/watch-ultra.jpg',
     category: "watches"
    
   },
   {
    
-    key: 1040,
+    key: 21,
     name:"Airpods Pro 2",
-    price: "60,000",
+    price: 60000,
     img: './images/airpods-pro.jpg',
     category: "airpods"
    
   },
   {
    
-    key: 1041,
+    key: 22,
     name:"Airpods Pro",
-    price: "50,000",
+    price: 50000,
     img: './images/airpods-pro.jpg',
     category: "airpods"
    
   },
   {
    
-    key: 1042,
+    key: 23,
     name:"Airpods 1",
-    price: "40,000",
+    price: 40000,
     img: './images/airpods-pro.jpg',
     category: "airpods"
    
   },
   {
    
-    key: 1043,
+    key: 24,
     name:"Airpods 2",
-    price: "30,000",
+    price: 30000,
     img: './images/airpods-pro.jpg',
     category: "airpods"
    
